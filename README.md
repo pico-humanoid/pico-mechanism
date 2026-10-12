@@ -12,9 +12,12 @@
 
 - 采用 **灵足时代(RobStride)** 一体化关节模组
     - [RS-10P](https://www.robstride.com/products/robStride10P)：主电机，提供约 $14\;\mathrm{N\cdot m}$ 的额定扭矩
-    ![RS-00](images/RS-10P.png){height=250}
+
+        <img src="images/RS-10P.png" alt="RS-10P 关节电机" height="250">
+
     - [RS-00](https://www.robstride.com/products/robStride00)：副电机，提供约 $5\;\mathrm{N\cdot m}$ 的额定扭矩
-    ![RS-10P](images/RS-00.png){height=200}
+
+        <img src="images/RS-00.png" alt="RS-00 关节电机" height="200">
 
 - 接口规格：xt30(2+2)公口（供电通讯一体化）
 
