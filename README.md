@@ -21,7 +21,7 @@
 
         <img src="images/RS-00.png" alt="RS-00 关节电机" height="200">
 
-- 接口规格：xt30(2+2)公口（供电通讯一体化）
+- 接口规格：**xt30(2+2)公口**（供电通讯一体化）
 
 - GitHub 开源社区：
     - [RobStride 产品资料](https://github.com/RobStride/Product_Information)：电机 3D 模型、规格参数、使用手册等
@@ -30,6 +30,8 @@
 ## 机械零件
 
 *例如螺丝、螺母、六角柱等。*
+
+> 机械零件可利用 `solidworks-mcp` 辅助设计
 
 - 六角杯头螺丝 `.SLDPRT`
     - M3x6/8/10/12
