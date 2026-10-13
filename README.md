@@ -1,6 +1,6 @@
 # PICO-Humanoid 机械设计
 
-本仓库是 [PICO-Humanoid](https://github.com/pico-humanoid/pico-humanoid.github.io "访问项目主入口") 负责机械设计部分的子项目，主要涵盖关节电机模型、机身结构设计等内容。
+本仓库是 [PICO-Humanoid](https://github.com/pico-humanoid "访问项目主页") 负责机械设计部分的子项目，主要涵盖关节电机模型、机身结构设计等内容。
 
 - 关节电机模型：[Motor/](Motor/ "进入 Motor/")
 - 机械零件模型：[Part/](Part/ "进入 Part/") *Continuously updated...*
