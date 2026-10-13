@@ -1,33 +1,33 @@
 # PICO-Humanoid 机械设计
 
-本仓库是 [PICO-Humanoid](https://github.com/pico-humanoid/pico-humanoid.github.io) 负责机械设计部分的子项目，主要涵盖关节电机模型、机身结构设计等内容。
+本仓库是 [PICO-Humanoid](https://github.com/pico-humanoid/pico-humanoid.github.io "访问项目主入口") 负责机械设计部分的子项目，主要涵盖关节电机模型、机身结构设计等内容。
 
-- 关节电机模型：[Motor](Motor/)
-- 机械零件模型：[Part](Part/) *Continuously updated...*
+- 关节电机模型：[Motor/](Motor/ "进入 Motor/")
+- 机械零件模型：[Part/](Part/ "进入 Part/") *Continuously updated...*
 - 机身结构模型：*Coming soon...*
 - 其他器件模型：*Coming soon...*
 - 整机装配体：*Coming soon...*
 
-> 建议使用 SolidWorks 进行机械设计，可参考[工具栈指南](https://github.com/pico-humanoid/pico-humanoid.github.io/tool-tutorial.md)
+> 使用 SolidWorks 进行机械设计，可参考[工具链指南](https://github.com/pico-humanoid/pico-humanoid.github.io/toolchain-guide.md "点击跳转")
 
-## 关节电机
+## [关节电机](Motor/ "进入 Motor/")
 
 - 采用 **灵足时代(RobStride)** 一体化关节模组
-    - [RS-10P](https://www.robstride.com/products/robStride10P) `.stp`：主电机，提供约 $14\mathrm{N\cdot m}$ 的额定扭矩
+    - [RS-10P](https://www.robstride.com/products/robStride10P "访问产品官网") `.stp`：主电机，提供约 $14\mathrm{N\cdot m}$ 的额定扭矩
 
-        <img src="images/RS-10P.png" alt="RS-10P 关节电机" height="250">
+        <img src="assets/RS-10P.png" alt="RS-10P 关节电机" height="250">
 
-    - [RS-00](https://www.robstride.com/products/robStride00) `.step`：副电机，提供约 $5\mathrm{N\cdot m}$ 的额定扭矩
+    - [RS-00](https://www.robstride.com/products/robStride00 "访问产品官网") `.step`：副电机，提供约 $5\mathrm{N\cdot m}$ 的额定扭矩
 
-        <img src="images/RS-00.png" alt="RS-00 关节电机" height="200">
+        <img src="assets/RS-00.png" alt="RS-00 关节电机" height="200">
 
 - 接口规格：**xt30(2+2)公口**（供电通讯一体化）
 
 - GitHub 开源社区：
-    - [RobStride 产品资料](https://github.com/RobStride/Product_Information)：电机 3D 模型、规格参数、使用手册等
-    - [RobStride 电机控制库](https://github.com/RobStride/RobStrideSPC)：基于 STM32 HAL 的电机 CAN 通讯控制库
+    - [RobStride 产品资料](https://github.com/RobStride/Product_Information "进入GitHub仓库")：电机 3D 模型、规格参数、使用手册等
+    - [RobStride 电机控制库](https://github.com/RobStride/RobStrideSPC "进入GitHub仓库")：基于 STM32 HAL 的电机 CAN 通讯控制库
 
-## 机械零件
+## [机械零件](Part/ "进入 Part/")
 
 *例如螺丝、螺母、六角柱等。*
 
