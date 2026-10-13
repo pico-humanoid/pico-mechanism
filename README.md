@@ -25,7 +25,6 @@
 
 - GitHub 开源社区：
     - [RobStride 产品资料](https://github.com/RobStride/Product_Information "进入GitHub仓库")：电机图纸、3D 模型、规格参数、使用手册等
-    - [RobStride 电机控制库](https://github.com/RobStride/RobStrideSPC "进入GitHub仓库")：基于 STM32 HAL 的电机 CAN 通讯控制库
 
 ## [机械零件](Part/ "进入 Part/")
 
