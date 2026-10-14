@@ -48,7 +48,7 @@
 
 *Coming soon...*
 
-PICO 以轻量易控为主要目标，目前采用 12-DoF 结构。
+PICO 以轻量易控为主要目标，目前采用 14-DoF 结构。
 
 ### 腿足
 
@@ -56,11 +56,12 @@ PICO 以轻量易控为主要目标，目前采用 12-DoF 结构。
 - `left/right_hip_roll_joint`
 - `left/right_hip_yaw_joint`
 - `left/right_knee_joint`
+- `left/right_ankle_roll_joint`
 - `left/right_ankle_pitch_joint`
 
 ### 手臂
 
-简洁为主，能提供前后摆臂辅助运动即可，外形可参考人形手臂弯曲程度设计
+简洁为主，当前阶段能提供前后摆臂辅助运动即可，外形设计可着重考虑人形手臂弯曲程度
 - `left/right_shoulder_pitch_joint`
 
 ### 躯干、腰部
